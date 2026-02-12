@@ -1,5 +1,5 @@
 - name: Ansible POST request
-  hosts: all
+  hosts: node1
   tasks:
   - name: Ansible POST request
     ansible.builtin.uri:
