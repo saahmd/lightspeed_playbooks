@@ -6,7 +6,7 @@
       url: https://ranchat-ai-cloud-ran-genai.apps.acmhub.dinesh154.dfw.ocp.run/api/ran
       method: POST
       body:
-        cell_id: 46
+        cell_id: 51
         anomaly_type: Low RSRP
         anomaly_value: -113.33 dBm
       body_format: yaml
