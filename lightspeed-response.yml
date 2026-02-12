@@ -5,9 +5,10 @@
     ansible.builtin.uri:
       url: https://ranchat-ai-cloud-ran-genai.apps.acmhub.dinesh154.dfw.ocp.run/api/ran
       method: POST
+      validate_certs: false
       body:
         cell_id: 46
         anomaly_type: Low RSRP
         anomaly_value: -113.33 dBm
-      body_format: yaml
-      status_code: 200
+      body_format: json
+      
